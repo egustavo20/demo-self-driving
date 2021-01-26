@@ -13,7 +13,7 @@ def main():
     
     #Main
     st.title("Masterclass Visão Computacional")
-    st.markdown("My first project in **streamlit!**")
+    st.markdown("My first project in **streamlit!** Linkdin- https://www.linkedin.com/in/elcio-gustavo-soares-de-araujo-74a22068/")
     st.text("Aplicações de OpenCV com Kernel para a montagem de uma ferramenta de filtros para imagens.")
     st.sidebar.title("Barra lateral")
 
@@ -94,7 +94,7 @@ def main():
             st.image(our_image, width=OUTPUT_WIDTH)
 
     elif escolha == 'Sobre':
-         st.subheader("Este é um projeto da Masterclass do curso sigmoidal")
+         st.subheader("Este é um projeto da Masterclass do curso sigmoidal-https://sigmoidal.ai/")
          st.markdown("Assim como esse projeto, temos outros tipos de aplicações e projetos em python no https://github.com/egustavo20/dataset_datascience")
 
 if __name__ == '__main__':
